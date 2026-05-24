@@ -1,0 +1,30 @@
+site_name: 锦泰珠光材料知识库
+site_description: 福建锦泰珠光材料有限公司内部产品知识库
+site_url: https://thewall-dxx.github.io/jintai/
+
+docs_dir: wiki
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+
+nav:
+  - 首页: home.md
+  - 公司概览: company-overview.md
+  - 产品目录: product-catalog.md
+  - 产品参数与应用指南: product-parameters.md
+  - 行业基础知识: industry-knowledge.md
+  - 报价与选型指南: pricing-guide.md
+  - 常见问题: faq.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
